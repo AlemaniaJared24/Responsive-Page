@@ -62,6 +62,8 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     padding: 400px;
+    height: 100%;
+    flex-basis: calc(33.33% - 20px);
     
 }
 .pricingsweet{
@@ -69,6 +71,8 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     padding: 400px;
+    height: 100%;
+    flex-basis: calc(33.33% - 20px);
 }
 .princing h1{
     text-align: left;
@@ -80,6 +84,8 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     padding: 300px;
+    height: 100%;
+    flex-basis: calc(33.33% - 20px);
 }
 .cta-button {
     display: inline-block;
