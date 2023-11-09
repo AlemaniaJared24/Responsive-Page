@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div style="background-image: url('logo.jpg');"></div>
+            <ul class="nav-links">
+                <button><li><a href="#home">Home</a></li></button>
+                <button><li><a href="#features">Features</a></li></button>
+                <button><li><a href="#pricing">Pricing</a></li></button>
+                <button><li><a href="#contact">Contact</a></li></button>
+            </ul>
+        </nav>
+        <div class="home" id="home">
+            <h1>Welcome to My Coffee Place</h1>
+            <p>This destination is for amazing products and services.</p>
+            <a href="#contact" class="cta-button">Learn More</a> 
+        </div>
+    </header>
+
+
+    <section class="features" id="features">
+        <div class="feature" style="background-image: url('cof.jpg');">
+            <h2>Coffees</h2>
+            <b><p>We're assuring that our coffee will made your day perfect.</p></b>
+        </div>
+        <div class="feature" style="background-image: url('cak.jpg');">
+            <h2>Sweets</h2>
+            <b><p>Cakes that were perfect partner of coffee is here.</p></b>
+        </div>
+        <div class="feature" style="background-image: url('fac.jpg');">
+            <h2>Beautiful Views</h2>
+            <b><p style="color: black;">The coffee time is not perfect without a Great Views</p></b>
+        </div>
+    </section>
+
+    <section  class="pricing" style="background-image: url('bg.jpg'); background-size: cover;" id="pricing">
+        <h2 style="font-size: 100px;">Coffee <br> Price</h2>
+        <div class="princingcof">
+        </div>
+        <h1 style="font-size: 100px;">Sweets <br> Price</h1>
+        <div class="pricingsweet"></div>
+        <h1 style="font-size: 100px;"> Perfect <br> Views</h1>
+        <div class="views">
+        </div>
+
+    </section>
+    <footer id="contact">
+        <p>&copy; 2023 Alemania's Cafe Place</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <h3> You may send a message to us</h3>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </footer>
+
+    <script src="jav.js"></script>
+</body>
+</html>
