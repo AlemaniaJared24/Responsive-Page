@@ -113,13 +113,31 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .feature , .princingcof, .views {
+    .feature  {
+        flex-basis: calc(50% - 20px);
+    }
+    .pricingcof {
+        flex-basis: calc(50% - 20px);
+    }
+    .pricingsweet {
+        flex-basis: calc(50% - 20px);
+    }
+    .views {
         flex-basis: calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
-    .feature , .pricingsweet, .views{
+    .feature {
+        flex-basis: 100%;
+    }
+    .pricingcof {
+        flex-basis: 100%;
+    }
+    .pricingsweet {
+        flex-basis: 100%;
+    }
+    .views {
         flex-basis: 100%;
     }
 }
